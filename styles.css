@@ -1,0 +1,75 @@
+/* General reset */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #111;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section h2 {
+    color: #111;
+    border-bottom: 2px solid gold;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul, ol {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+/* Contact links */
+a {
+    color: #111;
+}
+
+a:hover {
+    color: gold;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
