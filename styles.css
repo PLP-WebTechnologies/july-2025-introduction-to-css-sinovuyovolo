@@ -1,4 +1,4 @@
-/* General reset */
+/* General Page Styling */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* Header */
+/* Header Styling */
 header {
     background: #111;
     color: #fff;
@@ -36,13 +36,22 @@ nav a:hover {
     color: gold;
 }
 
-/* Sections */
-section {
-    padding: 40px 20px;
+/* Sections (Box Model Demonstration) */
+.card {
+    padding: 20px;              
+    margin: 20px auto;          
+    border: 2px solid #ccc;     
+    border-radius: 8px;
     max-width: 900px;
-    margin: auto;
 }
 
+/* Backgrounds for sections */
+#about { background-color: #e8f8f5; }  
+#vision { background-color: #fce4ec; }  
+#services { background-color: #fff3e0; } 
+#contact { background-color: #ede7f6; } 
+
+/* Headings */
 section h2 {
     color: #111;
     border-bottom: 2px solid gold;
@@ -56,13 +65,28 @@ ul, ol {
     padding-left: 20px;
 }
 
-/* Contact links */
+/* Links */
 a {
     color: #111;
 }
 
 a:hover {
     color: gold;
+}
+
+/* Buttons */
+button {
+    background-color: gold;
+    color: #111;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffdd55;
 }
 
 /* Footer */
@@ -73,3 +97,4 @@ footer {
     padding: 15px 0;
     margin-top: 30px;
 }
+
